@@ -1,6 +1,4 @@
-
-        import streamlit as st
-
+import streamlit as st
 from utils.pdf_reader import extract_text_from_pdf
 from utils.skill_extractor import extract_skills
 from utils.rag import create_vector_database, retrieve_questions
